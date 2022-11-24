@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  background-image: url("img_girl.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btn{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    background: #C04848;
+    background: linear-gradient(rgb(72,0,72,0.8));
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+.text{
+    text-align: center;
+    margin: 0px;
+    position: absolute;
+    top: 63%;
+    right: 48%;
+    color: aliceblue;
+    font-size: 14px;
+}
+</style>
+</head>
+<body>
+<script>
+function myFunction() {
+  alert("Hello World!!!");
+}
+</script>
+
+<div style="height: 100px;background-color:#c0c0c0;"></div>
+<div class="bg">
+<p class="text">Click here</p>
+<button class="btn" onClick="myFunction()" >Button</Button>
+</div>
+<div style="height: 100px;background-color:#c0c0c0;"></div>
+
+
+</body>
+</html>
